@@ -1,0 +1,4 @@
+
+thread 'main' panicked at /Users/runner/work/brush/brush/crates/brush-render/src/gaussian_splats.rs:78:25:
+cannot sample empty range
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
