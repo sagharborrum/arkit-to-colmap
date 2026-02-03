@@ -6,3 +6,8 @@ output/
 scan_data/
 *.zip
 .DS_Store
+*.tar
+*.tar.xz
+*.ply
+brush-app*/
+target/

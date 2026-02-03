@@ -131,3 +131,24 @@ Lower the threshold: `--quality-threshold 0.5`
 ## License
 
 MIT
+
+## Local Gaussian Splat Training (Mac M1+)
+
+After running COLMAP, train a Gaussian splat locally using [Brush](https://github.com/ArthurBrussee/brush):
+
+```bash
+./train_splat.sh output 7000
+```
+
+This will:
+1. Download Brush v0.3.0 (if needed)
+2. Train for 7000 steps with live viewer
+3. Export `export_7000.ply`
+
+**View your splat:** Open [SuperSplat.io](https://playcanvas.com/supersplat/editor) and drag in your PLY file.
+
+### Tested Results
+- Input: 45 images (1920×1440)
+- COLMAP: 65,147 3D points
+- Training: ~5 minutes on Mac Mini M1
+- Output: 26MB PLY file
