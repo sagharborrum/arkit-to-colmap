@@ -693,7 +693,8 @@ Cloud GPU billing is per-second. Download results and terminate the pod in the s
 
 ## Automation Architecture (SvelteKit + Firebase)
 
-> For automating this pipeline as a web service.
+> For automating this pipeline as a web service.  
+> **Full build spec:** [SYSTEM_SPEC.md](./SYSTEM_SPEC.md) — Firestore schema, Cloud Functions, GPU worker, SvelteKit components, security rules, build order.
 
 ### Proposed Architecture
 
